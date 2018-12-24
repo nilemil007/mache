@@ -13,6 +13,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #f4f4f4;
 }
 .menu a {
     color: white !important;
@@ -59,8 +60,113 @@ body {
     box-shadow: 0 0 25px white;
 }
 
+/* MacBoock Part */
+.mac{
+    background-color: #f4f4f4;
+    height: 520px;
+}
+.mac-row{
+    padding-top: 70px;
+}
+.mac-text h2{
+    color: #5a5a5a;
+    font-size: 33px;
+    margin-bottom: 4%;
+}
+.b-border-1{
+    border-bottom: 1px solid #ed145b;
+    width: 33%;
+}
+.mac-text{
+    padding-top: 5%;
+}
+.mac-text p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #5a5a5a;
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+.mac-text a{
+    font-size: 15px;
+    color: #ed145b;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.mac-text img{
+    position: absolute;
+    bottom: -2px;
+    left: 130px;
+}
+.macbook-pro{
+    position: absolute;
+    bottom: -110px;
+    right: -100px;
+    width: 70%;
+}
 
+/* Our Service Part */
+.service{
+    margin-top: 12%;
+}
+.service-heading{
 
+}
+.service-heading h2{
+    font-size: 38px;
+    font-weight: 300;
+    color: #5a5a5a;
+    margin-bottom: 2%;
+}
+.b-border-2{
+    border-bottom: 1px solid #ed145b;
+    width: 19%;
+    margin: auto;
+}
+.service-heading p{
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-top: 2%;
+    line-height: 2;
+    margin-bottom: 8%; 
+}
+.skill1{
+
+}
+.skill1 img{
+    border: 1px solid lightgray;
+    padding: 38px 30px;
+}
+.skill1 h5{
+    
+}
+.skill2{
+
+}
+.skill2 img{
+    
+}
+.skill2 h5{
+    
+}
+.skill3{
+
+}
+.skill3 img{
+    
+}
+.skill3 h5{
+    
+}
+.skill4{
+
+}
+.skill4 img{
+    
+}
+.skill4 h5{
+    
+}
 
 
 /* font-family: 'Lato', sans-serif; */
