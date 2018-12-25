@@ -53,11 +53,14 @@ body {
     background-color: #ed145b;
     padding: 11px 45px;
     margin-top: 5%;
-    border-radius: 30px; 
+    border-radius: 30px;
+    border: 2px solid #ed145b;
 }
 .head-btn:hover{
     color: white;
-    box-shadow: 0 0 25px white;
+    background-color: transparent;
+    box-shadow: 0 0 16px white;
+    border: 2px solid white;
 }
 
 /* MacBoock Part */
@@ -164,7 +167,10 @@ body {
 }
 .slide-item p{
     font-size: 20px;
-    margin: 35px 0px;
+    margin: 65px 0px;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: 44%;
 }
 /* Our Price */
 .bg{
@@ -260,11 +266,13 @@ body {
     color: white;
     padding: 13px 70px;
     border-radius: 50px;
+    border: 2px solid #ed145b;
 }
 .buy:hover{
-    color: white;
-    text-decoration: none;
-    box-shadow: 0px 5px 9px grey;
+    color: #ed145b;
+    box-shadow: 0 0 10px #ed145b;
+    background-color: transparent;
+    border: 2px solid #ed145b;
 }
 /* Media Part */
 .media-row-h{
@@ -319,11 +327,13 @@ body {
     border-radius: 50px;
     position: relative;
     top: -7px;
+    border: 2px solid white;
 }
 .join-btn:hover{
-    color: #ed145b;
-    text-decoration: none;
+    color: white;
     box-shadow: 0 0 20px white;
+    border: 2px solid white;
+    background-color: transparent;
 }
 .join-us-btn{
     padding-left: 0;
@@ -363,6 +373,41 @@ body {
 .card p{
     font-size: 15px;
     font-weight: 300; 
+}
+.c-box{
+position: relative;
+}
+.c-box .c-img-box{
+    position: relative;
+    overflow: hidden;
+}
+.c-box .c-img-box img{
+    transition: transform .3s;
+}
+.c-box:hover .c-img-box img{
+    transform: scale(1.1);
+}
+.c-box .search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(237, 20, 92, 0.85);
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: transform .3s;
+    cursor: pointer;
+}
+.c-box:hover .search{
+    transform: scale(1);
+    transition: transform .3s;
+}
+.search img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
 }
 .show{
     text-align: center;
@@ -414,11 +459,13 @@ body {
     padding: 14px 40px;
     border-radius: 50px;
     font-size: 15px;
+    border: 2px solid #ed145b;
 }
 .free-btn:hover{
     color: white;
-    text-decoration: none;
     box-shadow: 0 0 20px;
+    border: 2px solid white;
+    background-color: transparent;
 }
 /* Download Part */
 .download{
@@ -428,18 +475,9 @@ body {
     height: 500px;
     padding-top: 5%;
 }
-.safari{
-
-}
-.safari img{
-    
-}
 .b-border-6{
     border-bottom: 2px solid #ed145b;
     width: 34%;
-}
-.d-content{
-
 }
 .d-content h1{
     font-size: 35px;
@@ -461,11 +499,13 @@ body {
     border-radius: 50px;
     font-size: 13px;
     font-weight: bold;
+    border: 2px solid #ed145b;
 }
 .download-btn:hover{
-    color: white;
-    text-decoration: none;
+    color: #ed145b;
     box-shadow: 0 0 20px #ed145b;
+    border: 2px solid #ed145b;
+    background-color: transparent;
 }
 /* Footer Part */
 .footer-bg{

@@ -29,12 +29,12 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="#"><img class="img-fluid" src="images/brand-logo.png" alt=""></a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
                     aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0 text-center menu">
+                    <ul class="navbar-nav ml-auto text-center menu">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Home</a>
                         </li>
@@ -135,36 +135,43 @@
         <div class="container">
             <div class="row align-items-center d-flex slide-row">
                 <div class="col-md-12">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators d-md-none">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active slide-item text-center text-white">
-                                <img src="images/icons/doubble-cote.png" alt="">
+                                <img src="images/icons/doubble-cote.png" alt="" style="width:4%;">
                                 <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor<br>
                                         incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,<br> quis
                                         nostrud exercitation ullamco laboris nisi ut aliquip ex.</em></p>
-                                <img src="images/icons/doubble-cote1.png" alt="">
+                                <img src="images/icons/doubble-cote1.png" alt="" style="width:4%;">
                             </div>
                             <div class="carousel-item slide-item text-center text-white">
-                                <img src="images/icons/doubble-cote.png" alt="">
+                                <img src="images/icons/doubble-cote.png" alt="" style="width:4%;">
                                 <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor<br>
                                         incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,<br> quis
                                         nostrud exercitation ullamco laboris nisi ut aliquip ex.</em></p>
-                                <img src="images/icons/doubble-cote1.png" alt="">
+                                <img src="images/icons/doubble-cote1.png" alt="" style="width:4%;">
                             </div>
                             <div class="carousel-item slide-item text-center text-white">
-                                <img src="images/icons/doubble-cote.png" alt="">
+                                <img src="images/icons/doubble-cote.png" alt="" style="width:4%;">
                                 <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor<br>
                                         incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,<br> quis
                                         nostrud exercitation ullamco laboris nisi ut aliquip ex.</em></p>
-                                <img src="images/icons/doubble-cote1.png" alt="">
+                                <img src="images/icons/doubble-cote1.png" alt="" style="width:4%;">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <img src="images/icons/arrowL.png" alt="">
+                        <a class="carousel-control-prev d-none d-md-block" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <img src="images/icons/arrowR.png" alt="">
+                        <a class="carousel-control-next d-none d-md-block" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
@@ -196,7 +203,7 @@
                         </div>
                         <div class="offers">
                             <p>5 Projects<br> 200 MB Storage<br> Notification settings<br> Password protection</p>
-                            <a class="buy" href="">buy now</a>
+                            <a class="btn buy" href="">buy now</a>
                         </div>
                     </div>
                 </div>
@@ -213,7 +220,7 @@
                         </div>
                         <div class="offers">
                             <p>15 Projects<br> 1 GB Storage<br> Notification settings<br> Password protection</p>
-                            <a class="buy" href="">buy now</a>
+                            <a class="btn buy" href="">buy now</a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +237,7 @@
                         </div>
                         <div class="offers">
                             <p>30 Projects<br> 2 GB Storage<br> Notification settings<br> Password protection</p>
-                            <a class="buy" href="">buy now</a>
+                            <a class="btn buy" href="">buy now</a>
                         </div>
                     </div>
                 </div>
@@ -249,7 +256,7 @@
                             <p>Unlimited Projects<br> Unlimited Storage<br> Notification settings<br> Password
                                 protection
                             </p>
-                            <a class="buy" href="">buy now</a>
+                            <a class="btn buy" href="">buy now</a>
                         </div>
                     </div>
                 </div>
@@ -333,7 +340,7 @@
                     <h1>Became A Part Of <strong>Mache</strong> Community Today</h1>
                 </div>
                 <div class="col-md-2 join-us-btn">
-                    <a class="join-btn" href="">join us</a>
+                    <a class="btn join-btn" href="">join us</a>
                 </div>
             </div>
         </div>
@@ -351,7 +358,14 @@
                 </div>
                 <div class="col-md-4 cards">
                     <div class="card">
-                        <img src="images/card-images/card-1.png" class="card-img-top" alt="">
+                        <div class="c-box">
+                            <div class="c-img-box">
+                                <img src="images/card-images/card-1.png" class="card-img-top" alt="">
+                            </div>
+                            <div class="search">
+                                <img src="images/card-images/card-hover-search-icon.png" alt="">
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">LOREM IPSUMA DOLOR SIT</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod
@@ -361,7 +375,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/card-images/card-2.png" class="card-img-top" alt="">
+                        <div class="c-box">
+                            <div class="c-img-box">
+                                <img src="images/card-images/card-2.png" class="card-img-top" alt="">
+                            </div>
+                            <div class="search">
+                                <img src="images/card-images/card-hover-search-icon.png" alt="">
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">LOREM IPSUMA DOLOR SIT</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod
@@ -371,7 +392,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/card-images/card-3.png" class="card-img-top" alt="">
+                        <div class="c-box">
+                            <div class="c-img-box">
+                                <img src="images/card-images/card-3.png" class="card-img-top" alt="">
+                            </div>
+                            <div class="search">
+                                <img src="images/card-images/card-hover-search-icon.png" alt="">
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">LOREM IPSUMA DOLOR SIT</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod
@@ -381,7 +409,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/card-images/card-4.png" class="card-img-top" alt="">
+                        <div class="c-box">
+                            <div class="c-img-box">
+                                <img src="images/card-images/card-4.png" class="card-img-top" alt="">
+                            </div>
+                            <div class="search">
+                                <img src="images/card-images/card-hover-search-icon.png" alt="">
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">LOREM IPSUMA DOLOR SIT</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod
@@ -391,7 +426,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/card-images/card-5.png" class="card-img-top" alt="">
+                        <div class="c-box">
+                            <div class="c-img-box">
+                                <img src="images/card-images/card-5.png" class="card-img-top" alt="">
+                            </div>
+                            <div class="search">
+                                <img src="images/card-images/card-hover-search-icon.png" alt="">
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">LOREM IPSUMA DOLOR SIT</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod
@@ -401,7 +443,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/card-images/card-6.png" class="card-img-top" alt="">
+                        <div class="c-box">
+                            <div class="c-img-box">
+                                <img src="images/card-images/card-6.png" class="card-img-top" alt="">
+                            </div>
+                            <div class="search">
+                                <img src="images/card-images/card-hover-search-icon.png" alt="">
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">LOREM IPSUMA DOLOR SIT</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit,<br> sed do eiusmod
@@ -430,7 +479,7 @@
                         voluptate velit esse<br>
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>
                         sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                    <a class="free-btn" href="">SHOW MORE</a>
+                    <a class="btn free-btn" href="">SHOW MORE</a>
                 </div>
             </div>
         </div>
@@ -452,7 +501,7 @@
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                         non proident, sunt in </p>
-                    <a class="download-btn" href="">DOWNLOAD NOW</a>
+                    <a class="btn download-btn" href="">DOWNLOAD NOW</a>
                 </div>
             </div>
         </div>
@@ -466,48 +515,13 @@
                     <h5>© 2015 COPYRIGHT MACHE TEMPLATE</h5>
                 </div>
                 <div class="col-md-6 design">
-                    <h5>DESIGNED BY EMIL <span>.</span><p>CO</p></h5>
+                    <h5>DESIGNED BY EMIL <span>.</span>
+                        <p>CO</p>
+                    </h5>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
