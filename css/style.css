@@ -42,7 +42,7 @@ body {
     line-height: 25px;
 }
 .b-border {
-    border-bottom: 1px solid #ed145b;
+    border-bottom: 2px solid #ed145b;
     width: 12%;
     margin: auto;
 }
@@ -74,7 +74,7 @@ body {
     margin-bottom: 4%;
 }
 .b-border-1{
-    border-bottom: 1px solid #ed145b;
+    border-bottom: 2px solid #ed145b;
     width: 33%;
 }
 .mac-text{
@@ -107,10 +107,8 @@ body {
 
 /* Our Service Part */
 .service{
-    margin-top: 12%;
-}
-.service-heading{
-
+    margin-top: 10%;
+    height: 500px;
 }
 .service-heading h2{
     font-size: 38px;
@@ -119,8 +117,8 @@ body {
     margin-bottom: 2%;
 }
 .b-border-2{
-    border-bottom: 1px solid #ed145b;
-    width: 19%;
+    border-bottom: 2px solid #ed145b;
+    width: 17%;
     margin: auto;
 }
 .service-heading p{
@@ -128,45 +126,376 @@ body {
     font-size: 14px;
     margin-top: 2%;
     line-height: 2;
-    margin-bottom: 8%; 
+    margin-bottom: 0%;
 }
-.skill1{
-
+.skill h5{
+    font-size: 15px;
+    color: #ed145b; 
 }
-.skill1 img{
+.skill-img{
+    width: 130px;
+    margin: auto;
+    height: 130px;
+    position: relative;
     border: 1px solid lightgray;
-    padding: 38px 30px;
+    border-radius: 66px;
+    margin-bottom: 10%;
+    transition: all .2s ease-in-out;
 }
-.skill1 h5{
-    
+.skill-img:hover{
+    border: 1px solid #ed145b;
+    box-shadow: 0 0 20px #ed145b;
 }
-.skill2{
+.skill-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* Slider Part */
+.slider{
+    height: 338px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide-row{
+    height: 338px;
+}
+.slide-item p{
+    font-size: 20px;
+    margin: 35px 0px;
+}
+/* Our Price */
+.bg{
+    height: 440px;
+}
+.bg:hover .doller{
+    background-color: #ed145b;
+}
+.our-price{
+    background-color: #f4f4f4;
+    height: 900px;
+}
+.price-heading h2{
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+.price-heading{
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+.b-border-3{
+    border-bottom: 2px solid #ed145b;
+    width: 19%;
+    margin: auto;
+}
+.price-heading p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 3%;
+}
+.h{
+    height: 440px;
+}
+.doller{
+    background-color: #5a5a5a;
+    height: 150px;
+    position: relative;
+}
+.doller-content{
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%,-50%);
+}
+.doller-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.doller-content span{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.doller-content p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.package{
+    background-color: #f4f4f4;
+    width: 65%;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
+.package h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.offers p{
+    margin-top: 20%;
+    font-size: 15px;
+    color: #5a5a5a;
+    line-height: 35px;
+    font-weight: 300;
+    margin-bottom: 13%;
+}
+.buy{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ed145b;
+    color: white;
+    padding: 13px 70px;
+    border-radius: 50px;
+}
+.buy:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 5px 9px grey;
+}
+/* Media Part */
+.media-row-h{
+    height: 380px;
+    margin-top: 14%;
+    margin-bottom: 5%;
+}
+.media img{
+    margin-top: 4px;
+    padding-right: 8px;
+}
+.media-body h5{
+    font-size: 15px;
+    color: #ed145b;
+    margin-bottom: 7%;
+}
+.media-body p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #5a5a5a;
+    line-height: 28px;
+}
+/* Join Us Part */
+.join{
+    background-color: #ed145b;
+}
+.join-row{
+    height: 200px;
+}
+.join-heading{
+    padding: 0;
+    height: 62px;
+}
+.join-heading strong{
+    font-weight: bold;
+}
+.join-heading h1{
+    font-size: 38px;
+    color: white;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+}
+.join-btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ed145b;
+    background-color: white;
+    padding: 15px 51px;
+    border-radius: 50px;
+    position: relative;
+    top: -7px;
+}
+.join-btn:hover{
+    color: #ed145b;
+    text-decoration: none;
+    box-shadow: 0 0 20px white;
+}
+.join-us-btn{
+    padding-left: 0;
+}
+/* Latest Update */
+.update-row{
+    height: 1199px;
+    margin-top: 10%;
+}
+.update-heading{
 
 }
-.skill2 img{
-    
+.update-heading h1{
+    margin-bottom: 3%;
+    color: #5a5a5a;
 }
-.skill2 h5{
-    
+.update-heading p{
+    margin-top: 3%;
+    font-size: 15px;
+    color: #5a5a5a;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 8%;
 }
-.skill3{
+.b-border-4{
+    border-bottom: 2px solid #ed145b;
+    width: 18%;
+    margin: auto;
+}
+.cards{
+    margin-bottom: 4%;
+}
+.card h5{
+    color: #5a5a5a;
+    font-size: 15px;
+}
+.card p{
+    font-size: 15px;
+    font-weight: 300; 
+}
+.show{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.show img{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.show-btn{
+    color: #ed145b;
+    font-size: 15px;
+}
+.show-btn:hover{
+    color: #ed145b;
+    text-decoration: none;
+}
+/* Mache Free PSD Template */
+.free-psd-row{
+    height: 500px;
+}
+.free-psd-bg{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.free-psd h1{
+    font-size: 38px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.b-border-5{
+    border-bottom: 2px solid #ed145b;
+    width: 17%;
+    margin: auto;
+}
+.free-psd p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+.free-btn{
+    color: white;
+    background-color: #ed145b;
+    padding: 14px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.free-btn:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px;
+}
+/* Download Part */
+.download{
+    background-color: #F4F4F4;
+}
+.download-row{
+    height: 500px;
+    padding-top: 5%;
+}
+.safari{
 
 }
-.skill3 img{
+.safari img{
     
 }
-.skill3 h5{
-    
+.b-border-6{
+    border-bottom: 2px solid #ed145b;
+    width: 34%;
 }
-.skill4{
+.d-content{
 
 }
-.skill4 img{
-    
+.d-content h1{
+    font-size: 35px;
+    color: #5a5a5a;
+    margin-bottom: 4%;
 }
-.skill4 h5{
-    
+.d-content p{
+    font-size: 15px;
+    color: #5a5a5a;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 4%;
+    margin-bottom: 14%;
 }
+.download-btn{
+    background-color: #ed145b;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.download-btn:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px #ed145b;
+}
+/* Footer Part */
+.footer-bg{
+    background-color: #2b2b2b;
+}
+.footer-row{
+    height: 100px;
+}
+.copyright{
 
+}
+.copyright h5{
+    color: white;
+    font-size: 11px;
+}
+.design{
 
-/* font-family: 'Lato', sans-serif; */
+}
+.design h5{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.design span{
+    font-weight: bold;
+    padding: 0px 2px;
+    color: #ed145b;
+}
+.design p{
+
+}
