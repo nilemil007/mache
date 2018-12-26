@@ -26,6 +26,17 @@ body {
 .menu a:hover {
     color: #ed145b !important;
 }
+.navbar-toggler {
+    padding: 10px 18px;
+    font-size: 22px;
+    border: 2px solid #ed145b;
+    color: white;
+}
+.navbar-toggler:hover {
+    box-shadow: 0 0 20px;
+    color: #ed145b;
+    border: 2px solid white;
+}    
 .heading-text span {
     font-weight: bold;
 }
@@ -62,7 +73,6 @@ body {
     box-shadow: 0 0 16px white;
     border: 2px solid white;
 }
-
 /* MacBoock Part */
 .mac{
     background-color: #f4f4f4;
@@ -107,7 +117,6 @@ body {
     right: -100px;
     width: 70%;
 }
-
 /* Our Service Part */
 .service{
     margin-top: 10%;
@@ -168,6 +177,9 @@ body {
 .slide-item p{
     font-size: 20px;
     margin: 65px 0px;
+}
+.slide-item img{
+
 }
 .carousel-control-next, .carousel-control-prev {
     top: 44%;
@@ -275,6 +287,9 @@ body {
     border: 2px solid #ed145b;
 }
 /* Media Part */
+.media-col{
+    
+}
 .media-row-h{
     height: 380px;
     margin-top: 14%;
@@ -515,14 +530,12 @@ position: relative;
     height: 100px;
 }
 .copyright{
-
+    padding-top: 1%;
 }
 .copyright h5{
     color: white;
     font-size: 11px;
-}
-.design{
-
+    margin-bottom: 0;
 }
 .design h5{
     color: white;
@@ -537,5 +550,5 @@ position: relative;
     color: #ed145b;
 }
 .design p{
-
+    margin-bottom: 0;
 }

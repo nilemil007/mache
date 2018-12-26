@@ -1,46 +1,191 @@
+/* (min-width: 1200px) Start */
 @media (min-width: 1200px)
 {
+    /* Header Part */
+    /* MacBoock Part */
+    /* Our Service Part */
+    /* Slider Part */
+    /* Our Price */
+    /* Media Part */
+    /* Join Us Part */
+    /* Mache Free PSD Template */
+    /* Download Part */
 
 }
+/* (min-width: 1200px) End */
 
 /* Extra Large */
-@media (min-width: 992px) (max-width: 1199.98px)
-{
-
-}
-
-/* Large */
-@media (min-width: 768px) (max-width: 991.98px)
-{
-
-}
-
-/* Midium */
-@media (min-width: 576px) (max-width: 767.98px)
-{
-
-}
-
-/* Small */
-@media (min-width: 480px) (max-width: 575.98px)
-{
-
-}
-
-/* Extra Small */
-@media (max-width: 320px)
+/* (min-width: 992px) and (max-width: 1199.98px) Start */
+@media (min-width: 992px) and (max-width: 1199.98px)
 {
     /* Header Part */
-    .heading-text h1 {
-        font-size: 35px;
+    /* MacBoock Part */
+    /* Our Service Part */
+    /* Slider Part */
+    /* Our Price */
+    /* Media Part */
+    /* Join Us Part */
+    /* Mache Free PSD Template */
+    /* Download Part */
+
+}
+/* (min-width: 992px) and (max-width: 1199.98px) End */
+
+/* Large */
+/* (min-width: 768px) and (max-width: 991.98px) Start */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    /* Header Part */
+    /* MacBoock Part */
+    .mac-text h2 {
+        font-size: 28px;
+    }
+    .mac-text p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .mac-text a {
+        font-size: 13px;
+    }
+    .mac-text img {
+        left: 120px;
+        width: 8%;
+    }
+    /* Our Service Part */
+    .service {
+        height: 400px;
+    }
+    .slide-item img {
+        width: 8%;
+    }
+    /* Slider Part */
+    .slide-item p {
+        font-size: 15px;
+        margin: 60px 0px;
+    }
+    /* Our Price */
+    .h {
+        height: 530px;
+    }
+    .bg {
+        height: 485px;
+    }
+    .our-price {
+        height: 1330px;
+    }
+    /* Media Part */
+    .media-col {
         margin-bottom: 5%;
+    }
+    /* Join Us Part */
+    /* Mache Free PSD Template */
+    /* Download Part */
+
+}
+/* (min-width: 768px) and (max-width: 991.98px) End */
+
+/* Midium */
+/* (min-width: 576px) and (max-width: 767.98px) Start */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    /* Header Part */
+    b, strong {
+        display: block;
+        font-size: 40px;
+    }
+    .b-border {
+        width: 25%;
+    }
+    strong {
+        font-size: 46px;
+    }
+
+    /* MacBoock Part */
+    .mac {
+        height: 690px;
+    }
+    .mac-row {
+        padding-top: 50px;
+    }
+    .mac-text {
+        padding-top: 0%;
+    }
+    .b-border-1 {
+        width: 23%;
+    }
+    .mac-text p {
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 4%;
+    }
+    .macbook-pro {
+        position: absolute;
+        right: 1%;
+        width: 100%;
+    }
+    /* Our Service Part */
+    .service {
+        margin-top: 25%;
+        height: 1200px;
+    }
+    /* Slider Part */
+    .slide-item img {
+        width: 11%;
+    }
+    .slide-item p {
+        font-size: 16px;
+        margin: 25px 0px;
+    }
+    .carousel-indicators li {
+        bottom: -67px;
+    }
+    /* Our Price */
+    .our-price {
+        height: 1235px;
+    }
+    .h {
+        height: 500px;
+    }
+    .buy {
+        font-size: 11px;
+        padding: 11px 57px;
+    }
+    /* Media Part */
+    .media-row-h {
+        height: 670px;
+    }
+    .media-col {
+        margin-bottom: 10%;
+    }
+    /* Join Us Part */
+    
+    /* Mache Free PSD Template */
+    /* Download Part */
+
+}
+/* (min-width: 576px) and (max-width: 767.98px) End */
+
+
+
+/* Small */
+/* (min-width: 481px) and (max-width: 575.98px) Start */
+@media (min-width: 481px) and (max-width: 575.98px)
+{
+    /* Header Part */
+    b, strong {
+        display: block;
+        font-size: 40px;
+    }
+    .heading-text h1 {
+        font-size: 45px;
+        margin-bottom: 3%;
     }
     .b-border {
         width: 25%;
     }
     .heading-text p {
-        margin-top: 5%;
-
+        margin-top: 3%;
+        font-size: 14px;
     }
     .head-btn {
         font-size: 11px;
@@ -48,42 +193,208 @@
     }
     /* MacBoock Part */
     .mac {
-        height: 700px;
+        height: 750px;
+    }
+    .mac-row {
+        padding-top: 50px;
+    }
+    .mac-text {
+        padding-top: 3%;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .mac-text h2 {
+        font-size: 35px;
+    }
+    .b-border-1 {
+        width: 28%;
+    }
+    .mac-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .mac-text img {
+        left: 140px;
+    }
+    .macbook-pro {
+        position: absolute;
+        bottom: -72%;
+        right: 5%;
+        width: 90%;
+    }
+    /* Our Service Part */
+    .service {
+        height: 1248px;
+    }
+    .service-heading h2 {
+        font-size: 35px;
+        margin-bottom: 5%;
+        margin-top: 20%;
+    }
+    .service-heading p {
+        margin-bottom: 10%;
+    }
+    .skill h5 {
+        margin-bottom: 5%;
+    }
+    /* Slider Part */
+    .slide-item img {
+        width: 10%;
+    }
+    .slide-item p {
+        font-size: 14px;
+        margin: 45px 0px;
+    }
+    .carousel-indicators li {
+        bottom: -60px;
+    }
+    /* Our Price */
+    .our-price {
+        height: 2680px;
+    }
+    .h {
+        height: 600px;
+    }
+    .bg {
+        height: 560px;
+    }
+    /* Media Part */
+    .media-row-h {
+        height: 1010px;
+    }
+    .media-col {
+        margin-bottom: 10%;
+    }
+    .media-row-h {
+        height: 950px;
+    }
+    /* Join Us Part */
+    .join-heading h1 {
+        font-size: 25px;
+    }
+    .join-heading strong {
+        font-size: 32px;
+    }
+    .join-btn {
+        font-size: 13px;
+        padding: 10px 45px;
+        top: 10px;
+    }
+    /* Mache Free PSD Template */
+    /* Download Part */
+}
+/* (min-width: 481px) and (max-width: 575.98px) End */
+
+/* ***************Extra Media************* */
+@media (min-width: 498px){
+    .macbook-pro {
+        bottom: -80%;
+    }
+}
+/* ********************************************** */
+@media (min-width: 538px){
+    .macbook-pro {
+        bottom: -86%;
+    }
+    .media-row-h {
+        height: 1010px;
+    }
+}
+/* ********************************************** */
+@media (min-width: 768px){
+    .mac {
+        height: 545px;
+    }
+    .macbook-pro {
+        bottom: -11%;
+        right: 1%;
+        width: 60%;
+    }
+}
+/* ***************Extra Media************* */
+
+/* Extra Small */
+/* max-width: 480.98px Start*/
+@media (max-width: 480.98px)
+{
+    /* Header Part */
+    b, strong {
+        display: block;
+        font-size: 40px;
+    }
+    .heading-text h1 {
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+    .b-border {
+        width: 25%;
+    }
+    .heading-text p {
+        margin-top: 5%;
+    }
+    .head-btn {
+        font-size: 11px;
+        margin-top: 10%;
+    }
+    /* MacBoock Part */
+    .mac {
+        height: 650px;
     }
     .mac-row {
         padding-top: 30px;
     }
     .mac-text h2 {
-        font-size: 30px;
+        font-size: 27px;
+        padding-left: 15px;
+    }
+    .b-border-1 {
+        margin-left: 15px;
+    }
+    .mac-text p {
+        text-align: justify;
+        padding: 0px 15px;
+    }
+    .mac-text a {
+        padding-left: 15px;
+    }
+    .mac-text img {
+        left: 145px;
     }
     .macbook-pro {
-        bottom: -45%;
-        right: 7%;
-        width: 85%;
+        bottom: -44%;
+        right: 5%;
+        width: 90%;
     }
     /* Our Service Part */
-    .slider {
-        height: 200px;
-    }
     .service {
         height: 1200px;
     }
     .service-heading h2 {
         font-size: 35px;
         margin-bottom: 5%;
+        margin-top: 20%;
+    }
+    .b-border-2 {
+        width: 22%;
     }
     .service-heading p {
         font-size: 13px;
         margin-top: 5%;
-        margin-bottom: 15%;
+        margin-bottom: 5%;
     }
     /* Slider Part */
+    .slider {
+        height: 260px;
+    }
     .slide-row {
-        height: 200px;
+        height: 260px;
     }
     .slide-item p {
         font-size: 9px;
         margin: 20px 0px;
+    }
+    .slide-item img {
+        width: 8%;
     }
     .carousel {
         top: 0px;
@@ -92,7 +403,7 @@
         top: 0px;
     }
     .carousel-indicators li {
-        bottom: -50px;
+        bottom: -75px;
         width: 10px;
         height: 10px;
         border-radius: 100%;
@@ -115,28 +426,166 @@
         font-size: 13px;
         margin-bottom: 10%;
     }
+    /* Media Part */
+    .media-col {
+        margin-bottom: 10%;
+    }
+    .join-row {
+        height: 225px;
+    }
+    .media-row-h {
+        height: 940px;
+    }
+    .join-heading h1 {
+        font-size: 27px;
+    }
+    .join-btn {
+        font-size: 12px;
+        padding: 8px 35px;
+    }
+    /* Join Us Part */
+    .update-row {
+        height: 2435px;
+        margin-bottom: 25%;
+    }
+    .update-heading h1 {
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+    .b-border-4 {
+        width: 35%;
+    }
+    .update-heading p {
+        margin-top: 5%;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    /* Mache Free PSD Template */
+    .free-psd-row {
+        height: 430px;
+    }
+    .free-psd h1 {
+        font-size: 35px;
+        margin-bottom: 6%;
+        margin-top: 0%;
+    }
+    .free-psd p {
+        font-size: 13px;
+        text-align: justify;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .b-border-5 {
+        width: 25%;
+    }
+    .free-btn {
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    /* Download Part */
+    .download-row {
+        height: 850px;
+        padding-top: 10%;
+    }
+/* max-width: 480.98px End*/
+
+/* ***************Extra Media************* */
+    @media (min-width: 334px){
+            /* MacBoock Part */
+        .macbook-pro {
+            bottom: -50%;
+        }
+    /* Slider Part */
+        .slider {
+            height: 210px;
+        }
+        .slide-row {
+            height: 210px;
+        }
+        .carousel-indicators li {
+            bottom: -57px;
+        }
+        .media-row-h {
+            height: 1130px;
+        }
+    }
+/* ********************************************** */
+    @media (min-width: 358px){
+        /* MacBoock Part */
+        .macbook-pro {
+            bottom: -55%;
+        }
+        /* Our Price */
+        .our-price {
+            height: 2420px;
+        }
+        .bg {
+            height: 515px;
+        }
+        .h {
+            height: 550px;
+        }
+        .media-row-h {
+            height: 1000px;
+        }
+    }
+/* ********************************************** */
+    @media (min-width: 373px){
+        .macbook-pro {
+            bottom: -61%;
+        }
+        .media-row-h {
+            height: 1030px;
+        }
+    }
+/* ********************************************** */
+    @media (min-width: 402px){
+        /* MacBoock Part */
+        .macbook-pro {
+            bottom: -66%;
+        }
+        /* Slider Part */
+        .slide-item p {
+            font-size: 11px;
+        }
+        .carousel-indicators li {
+            bottom: -52px;
+        }
+        .media-row-h {
+            height: 1030px;
+        }
+    }
+/* ********************************************** */
+    @media (min-width: 442px){
+        /* MacBoock Part */
+        .macbook-pro {
+            bottom: -71%;
+        }
+        /* Slider Part */
+        .slider {
+            height: 250px;
+        }
+        .slide-row {
+            height: 250px;
+        }
+        .carousel-indicators li {
+            bottom: -62px;
+        }
+        .slide-item p {
+            font-size: 13px;
+        }
+    }/* ***************Extra Media************* */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    /* Header Part */
+    /* MacBoock Part */
+    /* Our Service Part */
+    /* Slider Part */
+    /* Our Price */
+    /* Media Part */
+    /* Join Us Part */
+    /* Mache Free PSD Template */
+    /* Download Part */
