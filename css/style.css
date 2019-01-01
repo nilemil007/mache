@@ -54,7 +54,7 @@ body {
 }
 .b-border {
     border-bottom: 2px solid #ed145b;
-    width: 12%;
+    width: 18%;
     margin: auto;
 }
 .head-btn{
@@ -88,7 +88,7 @@ body {
 }
 .b-border-1{
     border-bottom: 2px solid #ed145b;
-    width: 33%;
+    width: 35%;
 }
 .mac-text{
     padding-top: 5%;
@@ -209,7 +209,7 @@ body {
 }
 .b-border-3{
     border-bottom: 2px solid #ed145b;
-    width: 19%;
+    width: 16%;
     margin: auto;
 }
 .price-heading p{
@@ -290,9 +290,6 @@ body {
     border: 2px solid #ed145b;
 }
 /* Media Part */
-.media-col{
-    
-}
 .media-row-h{
     height: 380px;
     margin-top: 14%;
@@ -358,7 +355,7 @@ body {
 }
 /* Latest Update */
 .update-row{
-    height: 1199px;
+    height: auto;
     margin-top: 10%;
 }
 .update-heading{
@@ -425,7 +422,6 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
 }
 .show{
     text-align: center;
@@ -448,7 +444,7 @@ position: relative;
 }
 /* Mache Free PSD Template */
 .free-psd-row{
-    height: 500px;
+    height: auto;
 }
 .free-psd-bg{
     background-position: center center;
@@ -490,12 +486,12 @@ position: relative;
     background-color: #F4F4F4;
 }
 .download-row{
-    height: 500px;
+    height: auto;
     padding-top: 5%;
 }
 .b-border-6{
     border-bottom: 2px solid #ed145b;
-    width: 34%;
+    width: 32%;
 }
 .d-content h1{
     font-size: 35px;
@@ -538,7 +534,6 @@ position: relative;
 .copyright h5{
     color: white;
     font-size: 11px;
-    margin-bottom: 0;
 }
 .design h5{
     color: white;

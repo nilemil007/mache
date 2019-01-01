@@ -1,3 +1,257 @@
+@media (min-width: 1920px){
+    /* Header Part */
+    .container {
+        max-width: 1600px;
+    }
+    .head-bg {
+        height: 805px;
+    }
+    .brand-img{
+        width: 150%;
+    }
+    .menu a {
+        font-size: 24px;
+        padding: 0px 15px !important;
+    }
+    .heading-text h1 {
+        font-size: 4rem;
+        margin-top: 12%;
+    }
+    .b-border {
+        width: 14%;
+    }
+    .heading-text p {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+    .head-btn {
+        font-size: 20px;
+        padding: 20px 80px;
+        border-radius: 100px;
+    }
+    /* MacBoock Part */
+    .mac {
+        height: auto;
+        padding-bottom: 1%;
+    }
+    .mac-text {
+        padding-top: 0%;
+    }
+    .mac-text h2 {
+        font-size: 4rem;
+    }
+    .b-border-1 {
+        width: 47%;
+    }
+    .mac-text p {
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+    .mac-text a {
+        font-size: 20px;
+    }
+    .mac-text img {
+        left: 25%;
+        width: 5%;
+    }
+    .macbook-pro {
+        right: -9% !important;
+        width: 73% !important;
+        bottom: -18%;
+    }
+    /* Our Service Part */
+    .service {
+        height: auto;
+        margin-bottom: 5%;
+    }
+    .service-heading h2 {
+        font-size: 4rem;
+    }
+    .b-border-2 {
+        width: 19%;
+    }
+    .service-heading p {
+        font-size: 1.3rem;
+        margin-bottom: 5%;
+    }
+    .skill-img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 100%;
+    }
+    .skill h5 {
+        font-size: 1.3rem;
+    }
+    /* Slider Part */
+    .slider {
+        height: auto;
+    }
+    .slide-row {
+        height: auto;
+    }
+    .slide-item p {
+        font-size: 2rem !important;
+        margin: 0rem 0rem !important;
+    }
+    .slide-item img {
+        width: 5%;
+    }
+    .slide-item img {
+        width: 6%;
+        margin: 6rem 0rem;
+    }
+    /* Our Price */
+    .our-price {
+        height: auto;
+    }
+    .price-heading h2 {
+        font-size: 4rem;
+        margin-bottom: 2%;
+    }
+    .b-border-3 {
+        width: 20%;
+    }
+    .price-heading p {
+        font-size: 1.3rem;
+    }
+    .h {
+        height: auto;
+    }
+    .bg {
+        height: auto !important;
+        margin-bottom: 10rem;
+    }
+    .doller {
+        height: 15rem;
+    }
+    .package {
+        width: 73%;
+        height: 4.5rem;
+        top: 240px;
+        border-radius: 100px;
+    }
+    .doller-content h1 {
+        font-size: 5rem;
+    }
+    .doller-content span {
+        font-size: 2rem;
+    }
+    .doller-content p {
+        font-size: 1.3rem;
+    }
+    .package h3 {
+        font-size: 1.3rem;
+    }
+    .offers p {
+        font-size: 1.3rem;
+        line-height: 50px;
+    }
+    .buy {
+        font-size: 1.2rem;
+        padding: 16px 92px;
+        margin-bottom: 3rem;
+    }
+    /* Media Part */
+    .media-row-h {
+        height: auto;
+        margin-top: 10%;
+        margin-bottom: 7%;
+    }
+    .media-col {
+        margin-bottom: 2%;
+    }
+    .media img {
+        width: 15%;
+    }
+    .media-body h5 {
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+    }
+    .media-body p {
+        font-size: 1.3rem;
+        line-height: 37px;
+        padding-right: 30px;
+    }
+    /* Join Us Part */
+    .join-row {
+        height: auto;
+    }
+    .join-heading {
+        height: auto;
+        margin: 5% 0;
+    }
+    .join-heading h1 {
+        font-size: 3rem;
+    }
+    .join-us-btn {
+        text-align: left;
+    }
+    .join-btn {
+        font-size: 1.3rem;
+        padding: 17px 80px;
+        top: 2px;
+    }
+    /* Latest Update */
+    .update-heading h1 {
+        font-size: 4rem;
+        margin-bottom: 2%;
+    }
+    .update-heading p {
+        margin-top: 2%;
+        font-size: 1.3rem;
+    }
+    .card h5 {
+        font-size: 22px;
+    }
+    .card p {
+        font-size: 18px;
+    }
+    .show-btn {
+        font-size: 20px;
+    }
+    .show img {
+        top: 45px;
+        width: 25px;
+    }
+    /* Mache Free PSD Template */
+    .free-psd h1 {
+        font-size: 4rem;
+        margin-bottom: 2%;
+    }
+    .free-psd p {
+        font-size: 1.3rem;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .free-btn {
+        padding: 18px 50px;
+        font-size: 1.3rem;
+        margin-bottom: 4%;
+    }
+    /* Download Part */
+    .d-content h1 {
+        font-size: 3rem;
+        margin-bottom: 3%;
+    }
+    .d-content p {
+        font-size: 1.3rem;
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
+    .download-btn {
+        padding: 20px 52px;
+        font-size: 15px;
+    }
+    /* Footer Part */
+    .copyright h5 {
+        color: white;
+        font-size: 15px;
+    }
+    .design h5 {
+        font-size: 15px;
+    }
+}
+
 @media (min-width: 1200px){
     /* Header Part */
     /* MacBoock Part */
@@ -35,15 +289,11 @@
     /* Header Part */
     /* MacBoock Part */
     .mac {
-        height: 405px;
+        height: auto;
+        padding-bottom: 2%;
     }
     .mac-row {
         padding-top: 15px;
-    }
-    .macbook-pro {
-        bottom: -17%;
-        right: 0%;
-        width: 60%;
     }
     .mac-text h2 {
         font-size: 30px;
@@ -55,6 +305,7 @@
         font-size: 12px;
         margin-top: 4%;
         margin-bottom: 6%;
+        text-align: justify;
     }
     .mac-text a {
         font-size: 13px;
@@ -63,6 +314,11 @@
         bottom: -1px;
         left: 120px;
         width: 6%;
+    }
+    .macbook-pro {
+        bottom: -20%;
+        right: 0%;
+        width: 64%;
     }
     /* Our Service Part */
     /* Slider Part */
@@ -109,7 +365,7 @@
     }
     /* MacBoock Part */
     .mac {
-        height: 300px;
+        height: 315px;
     }
     .mac-row {
         padding-top: 15px;
