@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
 /* Header Part */
 .head-row {
     height: 493px;
@@ -431,7 +430,7 @@ position: relative;
 .show img{
     position: absolute;
     top: 130%;
-    left: 50%;
+    left: 49.5%;
     transform: translate(-50%,-50%);
 }
 .show-btn{
@@ -474,6 +473,7 @@ position: relative;
     border-radius: 50px;
     font-size: 15px;
     border: 2px solid #ed145b;
+    margin-bottom: 3%;
 }
 .free-btn:hover{
     color: white;

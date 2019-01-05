@@ -5,26 +5,55 @@
     <title>MACHE</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/icons/favicon.png">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Custom Media -->
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/countdown.css" />
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script> -->
+    <style>
+        .con{
+            margin:22px auto; max-width:90%; text-align: center;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="con">
+        <div class="con">
+            <div class='countdown' data-date="2028-01-01"></div>
+        </div>
+        <!-- <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
 
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script> -->
+    </div>
     <!-- Header Part -->
     <header class="head-bg" style="background-image:url('images/header-bg.png');">
         <div class="container">
@@ -35,7 +64,7 @@
                     <span class="fas fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ml-auto text-center menu">
+                    <ul data-aos="fade-down" class="navbar-nav ml-auto text-center menu">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Home</a>
                         </li>
@@ -56,12 +85,14 @@
             </nav>
             <div class="row align-items-center head-row">
                 <div class="col-md-12 heading-text text-white text-center">
-                    <h1><strong><span>Mache</span></strong> FREE psd Template</h1>
-                    <div class="b-border"></div>
-                    <p>Elegant and clean PSD template, which you can download and use for free!<br>
+                    <h1 data-aos-delay="300" data-aos="fade-right"><strong><span>Mache</span></strong> FREE psd
+                        Template</h1>
+                    <div data-aos-delay="600" data-aos="flip-left" class="b-border"></div>
+                    <p data-aos-delay="900" data-aos="fade-left">Elegant and clean PSD template, which you can download
+                        and use for free!<br>
                         You can easily modify the design to make it your own and help you get your project running
                         faster.</p>
-                    <a class="btn head-btn" href="">SHOW MORE</a>
+                    <a data-aos-delay="1200" data-aos="zoom-in-up" class="btn head-btn" href="">SHOW MORE</a>
                 </div>
             </div>
         </div>
@@ -71,7 +102,7 @@
     <section class="mac">
         <div class="container">
             <div class="row mac-row position-relative">
-                <div class="col-md-5 mac-text">
+                <div data-aos-delay="500" data-aos="fade-right" class="col-md-5 mac-text">
                     <h2><em>Powerfull PSD template<br> available for free!</em></h2>
                     <div class="b-border-1"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -85,9 +116,10 @@
                     <a href="">See the Video <img src="images/icons/play-icon.png" alt=""></a>
                 </div>
                 <div>
-                    <img class="img-fluid macbook-pro d-none d-sm-block" src="images/mac-book-pro.png" alt="">
+                    <img data-aos="fade-right" class="img-fluid macbook-pro d-none d-sm-block" src="images/mac-book-pro.png"
+                        alt="">
                 </div>
-                <div class="col-sm-12 d-sm-none">
+                <div data-aos="fade-right" class="col-sm-12 d-sm-none">
                     <img class="img-fluid macbook-pro" src="images/mac-book-pro.png" alt="">
                 </div>
             </div>
@@ -98,31 +130,31 @@
     <section>
         <div class="container">
             <div class="row service">
-                <div class="col-md-12 text-center service-heading">
+                <div data-aos-delay="300" data-aos="zoom-in" class="col-md-12 text-center service-heading">
                     <h2><em>Our Services</em></h2>
                     <div class="b-border-2"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                 </div>
-                <div class="col-sm-6 col-md-3 text-center skill">
+                <div data-aos-delay="300" data-aos="zoom-out-up" class="col-sm-6 col-md-3 text-center skill">
                     <div class="skill-img">
                         <img src="images/icons/icon-2.png" alt="">
                     </div>
                     <h5>FULLY EDITABLE</h5>
                 </div>
-                <div class="col-sm-6 col-md-3 text-center skill">
+                <div data-aos-delay="500" data-aos="zoom-out-up" class="col-sm-6 col-md-3 text-center skill">
                     <div class="skill-img">
                         <img src="images/icons/cart.png" alt="">
                     </div>
                     <h5>FREE DOWNLOAD</h5>
                 </div>
-                <div class="col-sm-6 col-md-3 text-center skill">
+                <div data-aos-delay="700" data-aos="zoom-out-up" class="col-sm-6 col-md-3 text-center skill">
                     <div class="skill-img">
                         <img src="images/icons/icon-1.png" alt="">
                     </div>
                     <h5>MODERN DESIGN</h5>
                 </div>
-                <div class="col-sm-6 col-md-3 text-center skill">
+                <div data-aos-delay="900" data-aos="zoom-out-up" class="col-sm-6 col-md-3 text-center skill">
                     <div class="skill-img">
                         <img src="images/icons/phone.png" alt="">
                     </div>
@@ -187,12 +219,13 @@
         <div class="container">
             <div class="row price-row">
                 <div class="col-md-12 price-heading text-center">
-                    <h2><em>Check Our Prices</em></h2>
+                    <h2 data-aos-delay="300" data-aos="fade-right"><em>Check Our Prices</em></h2>
                     <div class="b-border-3"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p data-aos-delay="300" data-aos="fade-left">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut
                         labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 text-center h">
+                <div data-aos-delay="300" data-aos="flip-left" class="col-sm-6 col-md-6 col-lg-3 text-center h">
                     <div class="bg bg-white">
                         <div class="doller">
                             <div class="doller-content text-white">
@@ -209,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 text-center h">
+                <div data-aos-delay="500" data-aos="flip-right" class="col-sm-6 col-md-6 col-lg-3 text-center h">
                     <div class="bg bg-white">
                         <div class="doller">
                             <div class="doller-content text-white">
@@ -226,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 text-center h">
+                <div data-aos-delay="700" data-aos="flip-left" class="col-sm-6 col-md-6 col-lg-3 text-center h">
                     <div class="bg bg-white">
                         <div class="doller">
                             <div class="doller-content text-white">
@@ -243,7 +276,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 text-center h">
+                <div data-aos-delay="900" data-aos="flip-right" class="col-sm-6 col-md-6 col-lg-3 text-center h">
                     <div class="bg bg-white">
                         <div class="doller">
                             <div class="doller-content text-white">
@@ -272,66 +305,81 @@
             <div class="row media-row-h">
                 <div class="col-sm-6 col-md-6 col-lg-4 media-col">
                     <div class="media">
-                        <img src="images/icons/1.png" class="mr-3 d-none d-sm-block" alt="">
+                        <img src="images/icons/1.png" class="mr-3 d-none d-sm-block wow flipInX" data-wow-delay="0.5s"
+                            alt="">
                         <div class="media-body">
-                            <img src="images/icons/1.png" class="mr-3 d-sm-none" alt="">
-                            <h5 class="mt-0">HIGH RESOLUTION</h5>
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            <img src="images/icons/1.png" class="mr-3 d-sm-none wow flipInX" data-wow-delay="0.5s" alt="">
+                            <h5 data-aos="fade-right" data-aos-easing="ease-in-sine" class="mt-0">HIGH RESOLUTION</h5>
+                            <p data-aos="fade-right" data-aos-easing="ease-in-sine">Lorem ipsum dolor sit amet,
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 media-col">
                     <div class="media">
-                        <img src="images/icons/2.png" class="mr-3 d-none d-sm-block" alt="">
+                        <img src="images/icons/2.png" class="mr-3 d-none d-sm-block wow flipInX" data-wow-delay="0.8s"
+                            alt="">
                         <div class="media-body">
-                            <img src="images/icons/2.png" class="mr-3 d-sm-none" alt="">
-                            <h5 class="mt-0">PHOTOGRAPHY</h5>
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            <img src="images/icons/2.png" class="mr-3 d-sm-none wow flipInX" data-wow-delay="0.8s" alt="">
+                            <h5 data-aos-delay="200" data-aos="fade-right" data-aos-easing="ease-in-sine" class="mt-0">PHOTOGRAPHY</h5>
+                            <p data-aos-delay="200" data-aos="fade-right" data-aos-easing="ease-in-sine">Lorem ipsum
+                                dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 media-col">
                     <div class="media">
-                        <img src="images/icons/3.png" class="mr-3 d-none d-sm-block" alt="">
+                        <img src="images/icons/3.png" class="mr-3 d-none d-sm-block wow flipInX" data-wow-delay="1.1s"
+                            alt="">
                         <div class="media-body">
-                            <img src="images/icons/3.png" class="mr-3 d-sm-none" alt="">
-                            <h5 class="mt-0">EASY TO CUSTOMIZE</h5>
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            <img src="images/icons/3.png" class="mr-3 d-sm-none wow flipInX" data-wow-delay="1.1s" alt="">
+                            <h5 data-aos-delay="400" data-aos="fade-right" data-aos-easing="ease-in-sine" class="mt-0">EASY
+                                TO CUSTOMIZE</h5>
+                            <p data-aos-delay="400" data-aos="fade-right" data-aos-easing="ease-in-sine">Lorem ipsum
+                                dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 media-col">
                     <div class="media">
-                        <img src="images/icons/4.png" class="mr-3 d-none d-sm-block" alt="">
+                        <img src="images/icons/4.png" class="mr-3 d-none d-sm-block wow flipInX" data-wow-delay="1.4s"
+                            alt="">
                         <div class="media-body">
-                            <img src="images/icons/4.png" class="mr-3 d-sm-none" alt="">
-                            <h5 class="mt-0">24/7 SUPPORT</h5>
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            <img src="images/icons/4.png" class="mr-3 d-sm-none wow flipInX" data-wow-delay="1.4s" alt="">
+                            <h5 data-aos="fade-left" data-aos-easing="ease-in-sine" class="mt-0">24/7 SUPPORT</h5>
+                            <p data-aos="fade-left" data-aos-easing="ease-in-sine">Lorem ipsum dolor sit amet,
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 media-col">
                     <div class="media">
-                        <img src="images/icons/5.png" class="mr-3 d-none d-sm-block" alt="">
+                        <img src="images/icons/5.png" class="mr-3 d-none d-sm-block wow flipInX" data-wow-delay="1.7s"
+                            alt="">
                         <div class="media-body">
-                            <img src="images/icons/5.png" class="mr-3 d-sm-none" alt="">
-                            <h5 class="mt-0">POWERFULL THEME</h5>
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            <img src="images/icons/5.png" class="mr-3 d-sm-none wow flipInX" data-wow-delay="1.7s" alt="">
+                            <h5 data-aos-delay="200" data-aos="fade-left" data-aos-easing="ease-in-sine" class="mt-0">POWERFULL
+                                THEME</h5>
+                            <p data-aos-delay="200" data-aos="fade-left" data-aos-easing="ease-in-sine">Lorem ipsum
+                                dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 media-col">
                     <div class="media">
-                        <img src="images/icons/6.png" class="mr-3 d-none d-sm-block" alt="">
+                        <img src="images/icons/6.png" class="mr-3 d-none d-sm-block wow flipInX" data-wow-delay="2s"
+                            alt="">
                         <div class="media-body">
-                            <img src="images/icons/6.png" class="mr-3 d-sm-none" alt="">
-                            <h5 class="mt-0">SEO OPTIMIZATION</h5>
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            <img src="images/icons/6.png" class="mr-3 d-sm-none wow flipInX" data-wow-delay="2s" alt="">
+                            <h5 data-aos-delay="400" data-aos="fade-left" data-aos-easing="ease-in-sine" class="mt-0">SEO
+                                OPTIMIZATION</h5>
+                            <p data-aos-delay="400" data-aos="fade-left" data-aos-easing="ease-in-sine">Lorem ipsum
+                                dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna</p>
                         </div>
                     </div>
@@ -344,10 +392,10 @@
     <section class="join">
         <div class="container">
             <div class="row join-row align-items-center text-center">
-                <div class="col-12 col-md-9 col-lg-10 join-heading">
+                <div class="wow pulse col-12 col-md-9 col-lg-10 join-heading" data-wow-delay="0.5s">
                     <h1>Became A Part Of <strong>Mache</strong> Community Today</h1>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2 join-us-btn">
+                <div class="wow pulse col-12 col-md-3 col-lg-2 join-us-btn" data-wow-delay="1s">
                     <a class="btn join-btn" href="">join us</a>
                 </div>
             </div>
@@ -359,12 +407,13 @@
         <div class="container">
             <div class="row update-row">
                 <div class="col-md-12 update-heading text-center">
-                    <h1><em>Our Latest Updates</em></h1>
+                    <h1 data-aos="fade-up-right"><em>Our Latest Updates</em></h1>
                     <div class="b-border-4"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p data-aos="fade-up-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut
                         labore<br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                 </div>
-                <div class="col-sm-6 col-md-4 cards">
+                <div data-aos="zoom-in" class="col-sm-6 col-md-4 cards">
                     <div class="card">
                         <div class="c-box">
                             <div class="c-img-box">
@@ -381,7 +430,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 cards">
+                <div data-aos="zoom-in" data-aos-delay="300" class="col-sm-6 col-md-4 cards">
                     <div class="card">
                         <div class="c-box">
                             <div class="c-img-box">
@@ -398,7 +447,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 cards">
+                <div data-aos="zoom-in" data-aos-delay="600" class="col-sm-6 col-md-4 cards">
                     <div class="card">
                         <div class="c-box">
                             <div class="c-img-box">
@@ -415,7 +464,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 cards">
+                <div data-aos="zoom-in" data-aos-delay="900" class="col-sm-6 col-md-4 cards">
                     <div class="card">
                         <div class="c-box">
                             <div class="c-img-box">
@@ -432,7 +481,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 cards">
+                <div data-aos="zoom-in" data-aos-delay="1200" class="col-sm-6 col-md-4 cards">
                     <div class="card">
                         <div class="c-box">
                             <div class="c-img-box">
@@ -449,7 +498,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 cards">
+                <div data-aos="zoom-in" data-aos-delay="1500" class="col-sm-6 col-md-4 cards">
                     <div class="card">
                         <div class="c-box">
                             <div class="c-img-box">
@@ -468,7 +517,7 @@
                 </div>
                 <div class="col-md-12 show">
                     <a class="show-btn" href="">SHOW MORE</a>
-                    <img src="images/icons/arrow-down.png" alt="">
+                    <img class="animated infinite slideInDown" src="images/icons/arrow-down.png" alt="">
                 </div>
             </div>
         </div>
@@ -479,15 +528,16 @@
         <div class="container">
             <div class="row text-center text-white free-psd-row align-items-center">
                 <div class="col-md-12 free-psd">
-                    <h1><em>Mache Free PSD Template</em></h1>
-                    <div class="b-border-5"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <h1 data-aos-delay="300" data-aos="fade-up"><em>Mache Free PSD Template</em></h1>
+                    <div data-aos-delay="500" data-aos="fade-up" class="b-border-5"></div>
+                    <p data-aos-delay="700" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut
                         labore<br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut<br> aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse<br>
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>
                         sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                    <a class="btn free-btn" href="">SHOW MORE</a>
+                    <a data-aos-delay="900" data-aos="fade-down" class="btn free-btn" href="">SHOW MORE</a>
                 </div>
             </div>
         </div>
@@ -497,10 +547,10 @@
     <section class="download">
         <div class="container">
             <div class="row download-row align-items-center">
-                <div class="col-md-6 safari d-none d-md-block">
+                <div data-aos-delay="200" data-aos="fade-right" class="col-md-6 safari d-none d-md-block">
                     <img class="img-fluid" src="images/safari-browser.png" alt="">
                 </div>
-                <div class="col-md-6 d-content">
+                <div data-aos-delay="200" data-aos="fade-left" class="col-md-6 d-content">
                     <h1><em>Please share some love<br>
                             by appreciate it and download! </em></h1>
                     <div class="b-border-6"></div>
@@ -509,9 +559,9 @@
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                         non proident, sunt in </p>
-                    <a class="btn download-btn" href="">DOWNLOAD NOW</a>
+                    <a data-aos-delay="300" data-aos="fade-up" class="btn download-btn" href="">DOWNLOAD NOW</a>
                 </div>
-                <div class="col-md-6 safari d-md-none">
+                <div data-aos-delay="200" data-aos="fade-right" class="col-md-6 safari d-md-none">
                     <img class="img-fluid" src="images/safari-browser.png" alt="">
                 </div>
             </div>
@@ -535,12 +585,31 @@
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 </body>
 
 </html>
